@@ -15,6 +15,8 @@
 // and help support open source hardware & software! -ada
 
 #include "Adafruit_LEDBackpack.h"
+// Added the Adafruit_GFX library for proper access to the 7 segment backpack.
+#include "Adafruit_GFX.h"
 #include <Wire.h>
 #include <Adafruit_GPS.h>;
 #include <SoftwareSerial.h>;
